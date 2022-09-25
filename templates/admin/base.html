@@ -1,0 +1,12 @@
+{% extends 'admin/base.html' %}
+
+{% block extrastyle %}{{ block.super }}
+<style>
+:root {
+  --primary: green;
+  --secondary: orange;
+  --link-fg: blue;
+  --link-selected-fg: #8f5bb2;
+}
+</style>
+{% endblock %}
